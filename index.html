@@ -68,6 +68,16 @@
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
     }
+
+    .aboutme {
+      /* background-image: url('/assets/img/succcess.jpg'); */
+      border-radius: 2ch;
+      background: #def1ef;
+    }
+
+    .btnstock {
+      color: black;
+    }
   </style>
 
 
@@ -88,15 +98,14 @@
             <img src="assets/img/gamma-ray-logo2.png" alt="" width="36" height="36" class="me-2" viewBox="0 0 118 94">
             <span class="fs-4" style="color: red;font-weight: bold;">Gamma Ray Studio</span>
           </a> -->
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"> 
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
             <span class="fs-4" style="font-weight: bold;">Derek Fang</span>
           </a>
 
           <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 px-3">
-            <li><a href="#" class="nav-link px-2 link-dark fs-5" style="font-weight: bold;">關於我</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark fs-5" style="font-weight: bold;">履歷</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark fs-5" style="font-weight: bold;">不知道</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark fs-5" style="font-weight: bold;">其他</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">關於我</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">履歷</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">Contact</a></li>
           </ul>
 
           <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -141,61 +150,73 @@
 </div> -->
 
     <main class="container">
-      <div class="p-4 p-md-5 mb-4 rounded text-bg-light ">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4" style="font-weight: bold;font-style:normal;">關於我</h1>
-          <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
-            about what’s most interesting in this post’s contents.</p>
-            <button class="btn border btn-outline-secondary border-2 border-dark" onclick="window.location.href='https://www.facebook.com/'" type="button">More</button>
-          <!-- <p class="lead mb-0"><a href="#" class="text-gray fw-bold">Continue reading...</a></p> -->
-        </div>
-      </div>
-
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">Featured post</h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                additional content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-
-            </div>
+      <div class="aboutme">
+        <div class="row p-4 p-md-5 mb-4 rounded ">
+          <div class="col-md-4 pl-0">
+            <img src="/assets/img/IMG_1355_2.jpg" height="250" width="250" data-holder-rendered="true"
+              class="rounded-circle">
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">Post title</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-                content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-
-            </div>
+          <div class="col-md-6 px-0">
+            <h1 class="display-5" style="font-weight: bold;font-style:normal;">Hello</h1>
+            <p class="lead my-1" style="font-weight: bold;">A bit about me</p>
+            <p class="lead my-3" style="font-weight: bold;">不定時更新個人網站</p>
+            <button class="btn border btn-outline-secondary border-2 border-dark" onclick="window.location.href='/'"
+              type="button">More</button>
+            <!-- <p class="lead mb-0"><a href="#" class="text-gray fw-bold">Continue reading...</a></p> -->
           </div>
         </div>
       </div>
+      
+      
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+                <!-- <h3 class="mb-0" style="font-weight: bold;">股市資料庫</h3> -->
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                  <span class="fs-2" style="font-weight: bold;">股市資料庫</span>
+                </a>
+                <div class="mb-1 mt-1" style="font-weight: bold;">台股/美股</div>
+                <p class="card-text mb-auto" style="font-weight: bold;">盤前、盤中、盤後更新</p>
+                <p class="card-text mb-auto" style="font-weight: bold;">距離台股開盤：</p>
+                <p class="card-text mb-auto" style="font-weight: bold;">距離美股開盤：</p>       
+                      
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Design</strong>
+                <h3 class="mb-0">Post title</h3>
+                <div class="mb-1 text-muted">Nov 11</div>
+                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      
       <div class="row g-5">
         <div class="col-md-8">
           <h3 class="pb-4 mb-4 fst-italic border-bottom">
