@@ -70,13 +70,13 @@
     }
 
     .aboutme {
-      /* background-image: url('assets/img/succcess.jpg'); */
+      /* background-image: url('/assets/img/succcess.jpg'); */
       border-radius: 2ch;
-      background: #def1ef;
+      background: rgb(247, 244, 244);
     }
 
-    .btnstock {
-      color: black;
+    .twcount {
+      display: inline-block;
     }
   </style>
 
@@ -87,8 +87,18 @@
   <link href="blog.css" rel="stylesheet">
   <link href="headers.css" rel="stylesheet">
 </head>
+<script language="JavaScript">
+  function ShowTime() {
+    var NowDate = new Date();
+    var h = NowDate.getHours();
+    var m = NowDate.getMinutes();
+    var s = NowDate.getSeconds();
+    document.getElementById('showbox').innerHTML = h + '時' + m + '分' + s + '秒';
+    setTimeout('ShowTime()', 1000);
+  }
+</script>
 
-<body>
+<body onload="ShowTime()">
 
   <div class="container">
     <header class="p-2 mb-3 border-bottom">
@@ -103,8 +113,16 @@
           </a>
 
           <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0 px-3">
+            <a href="https://www.facebook.com/KereDs1213/"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none px-1">
+              <img src="/assets/img/facebook.png" title="My Facebook" alt="mdo" width="31" height="31">
+            </a>
+            <a href="https://www.instagram.com/fangderek/"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none px-1">
+              <img src="/assets/img/instagram.png" title="My Instagram" alt="mdo" width="32" height="32">
+            </a>
             <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">關於我</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">履歷</a></li>
+            <li><a href="resume.html" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">履歷</a></li>
             <li><a href="#" class="nav-link px-2 link-dark fs-6" style="font-weight: bold;">Contact</a></li>
           </ul>
 
@@ -115,7 +133,7 @@
           <div class="dropdown text-end">
             <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
               aria-expanded="false">
-              <img src="assets/dist/img/d.png" alt="kered" width="32" height="32">
+              <img src="/assets/img/d.png" alt="mdo" width="32" height="32">
             </a>
             <ul class="dropdown-menu text-small">
               <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -153,74 +171,77 @@
       <div class="aboutme">
         <div class="row p-4 p-md-5 mb-4 rounded ">
           <div class="col-md-4 pl-0">
-            <img src="assets/dist/img/IMG_1355_2.jpg" height="250" width="250" data-holder-rendered="true"
+            <img src="/assets/img/IMG_1355_2.jpg" height="250" width="250" data-holder-rendered="true"
               class="rounded-circle">
           </div>
-          <div class="col-md-6 px-0">
+          <div class="col-md-8 px-0">
             <h1 class="display-5" style="font-weight: bold;font-style:normal;">Hello</h1>
-            <p class="lead my-1" style="font-weight: bold;">A bit about me</p>
-            <p class="lead my-3" style="font-weight: bold;">不定時更新個人網站</p>
-            <button class="btn border btn-outline-secondary border-2 border-dark" onclick="window.location.href='/'"
-              type="button">More</button>
+            <!-- <p class="lead my-1" style="font-weight: bold;">A bit about me</p> -->
+            <p class="lead my-3" style="font-weight: bold;">我叫方德霖，英文名子是Derek，目前就讀於國立台灣大學 財務金融研究所</p>
+            <p class="lead my-3" style="font-weight: bold;">基於興趣，想嘗試看看自己寫個人網頁，看心情更新，也有可能都不更新</p>
+            <p class="lead my-3" style="font-weight: bold;">這邊記錄著我的日常生活、作品分享，歡迎到處逛逛</p>
+            <p class="lead my-3" style="font-weight: bold;">如果有任何問題也歡迎透過我的社群網站，或是點右上方的Contact聯絡我！</p>
+            <!-- <button class="btn border btn-outline-secondary border-2 border-dark"
+              onclick="window.location.href='Nicol.html'" type="button">More</button> -->
             <!-- <p class="lead mb-0"><a href="#" class="text-gray fw-bold">Continue reading...</a></p> -->
           </div>
         </div>
       </div>
-      
-      
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
-                <!-- <h3 class="mb-0" style="font-weight: bold;">股市資料庫</h3> -->
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                  <span class="fs-2" style="font-weight: bold;">股市資料庫</span>
-                </a>
-                <div class="mb-1 mt-1" style="font-weight: bold;">台股/美股</div>
-                <p class="card-text mb-auto" style="font-weight: bold;">盤前、盤中、盤後更新</p>
-                <p class="card-text mb-auto" style="font-weight: bold;">距離台股開盤：</p>
-                <p class="card-text mb-auto" style="font-weight: bold;">距離美股開盤：</p>       
-                      
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                    dy=".3em">Thumbnail</text>
-                </svg>
 
-              </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+              <!-- <h3 class="mb-0" style="font-weight: bold;">股市資料庫</h3> -->
+              <a href="" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                <span class="fs-2" style="font-weight: bold;">股市資料庫</span>
+              </a>
+              <p class="card-text mb-auto mt-2" style="font-weight: bold;">台股/美股</p>
+              <p class="card-text mb-auto" style="font-weight: bold;">盤前、盤中、盤後更新</p>
+              <p class="card-text mb-auto" style="font-weight: bold;">距離台股開盤：</p>
+              <!-- <p id="showbox" class="card-text mb-auto" style="font-weight: bold;"></p> -->
+              <p class="card-text mb-auto" style="font-weight: bold;">距離美股開盤：</p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">Post title</h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-                  content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                    dy=".3em">Thumbnail</text>
-                </svg>
-
-              </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
             </div>
           </div>
         </div>
+
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <!-- <strong class="d-inline-block mb-2 text-success">文章列表</strong> -->
+              <h3 class="mb-0 fs-2" style="font-weight: bold;">文章列表</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <div class="row g-5">
+      <!-- <div class="row g-5">
         <div class="col-md-8">
-          <h3 class="pb-4 mb-4 fst-italic border-bottom">
-            From the Firehose
+          <h3 class="pb-4 mb-4 border-bottom" style="font-weight: bold;">
+            最新文章
           </h3>
 
           <article class="blog-post">
@@ -368,8 +389,8 @@
           </article>
 
           <nav class="blog-pagination" aria-label="Pagination">
-            <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-            <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+            <a class="btn btn-outline-secondary rounded-pill" href="#">回到最上面</a>
+            <a class="btn btn-outline-secondary rounded-pill ">Newer</a>
           </nav>
 
         </div>
@@ -412,7 +433,7 @@
         </div>
       </div>
 
-    </main>
+    </main> -->
 
     <!-- <footer class="blog-footer">
       <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a

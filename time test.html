@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>HTML显示时间</title>
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=gb2312"> -->
+</head>
+<style>
+    p{
+        display: inline-block;
+    }
+</style>
+
+<script language="JavaScript">
+    function ShowTime() {
+        var time = "08:30";
+        _startTime = time.split(":");
+        var startDate = new Date(0, 0, 0, _startTime[0], _startTime[1], 0);
+        var endDate = new Date(0, 0, 0, 0, 15, 0);
+        var diff = startDate.getTime() - endDate.getTime();
+        var hours = Math.floor(diff / 1000 / 60 / 60);
+        diff -= hours * 1000 * 60 * 60;
+        var minutes = Math.floor(diff / 1000 / 60);
+        resultTime = hours + ":" + minutes;
+        document.getElementById('showbox').innerHTML = resultTime;
+        setTimeout('ShowTime()', 1000);
+    }
+</script>
+
+<body onload="ShowTime()">
+    <p class="card-text mb-auto" style="font-weight: bold;">距離台股開盤：</p>
+    <p class="card-text mb-auto" style="font-weight: bold;">距離台股開盤：</p>
+</body>
+
+
+
+</html>
