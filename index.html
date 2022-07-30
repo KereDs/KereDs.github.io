@@ -11,110 +11,19 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
   <link rel="icon" href="/assets/img/letter-d.png" type="image/icon type">
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
 
 
   <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    .b-example-divider {
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-
-    .b-example-vr {
-      flex-shrink: 0;
-      width: 1.5rem;
-      height: 100vh;
-    }
-
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
-
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
-
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .text-h-center {
-      text-align: center;
-      vertical-align: middle;
-    }
-
-    .article {
-      background-image: url("/assets/img/article22.jpg");
-      background-size: 430px;
-      border-radius: 2%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .project {
-      background-image: url("/assets/img/project.jpg");
-      background-size: 420px;
-      border-radius: 2%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .music {
-      background-image: url("/assets/img/music.jpg");
-      background-size: 420px;
-      border-radius: 2%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .btnnn {
-      border: none;
-      background-color: white;
-      width: 20ch;
-      height: 6ch;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
+ 
 
 
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -122,22 +31,23 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand text-black px-5" href="caro.html" style="font-weight: bold;">Derek Fang</a>
+
+        <a class="navbar-brand text-black px-3" href="index.html" style="font-weight:bold;">Derek Fang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link active text-black " aria-current="page" href="aboutme.html"
                 style="font-weight: bold;"><span>About me</span></a>
             </li>
             <li class="nav-item">
               <p class="pt-2">|</p>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link text-black px-3" href="#" style="font-weight: bold;">Resume</a>
+              <a class="nav-link text-black px-3" href="resume.html" style="font-weight: bold;">Resume</a>
             </li>
             <li class="nav-item">
               <p class="pt-2">|</p>
@@ -151,9 +61,7 @@
             <li class="nav-item">
               <a class="nav-link text-black px-3" href="#" style="font-weight: bold;">Contact</a>
             </li>
-            <li class="nav-item">
-              <img src="/assets/img/d.png" alt="d" width="32" height="32">
-            </li>
+            <img src="/assets/img/d.png" alt="d" width="32" height="32">
           </ul>
           <!-- <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -181,11 +89,11 @@
           <rect width="100%" height="100%" fill="#777" />
           <div class="container">
             <div class="carousel-caption text-start">
-              <img src="/assets/img/IMG_1355_2.jpg" height="250" width="250" data-holder-rendered="true"
+              <img src="/assets/img/me1.JPG" height="250" width="250" data-holder-rendered="true"
                 class="rounded-circle">
               <h1>Welcome to my blog.</h1>
-              <p>Try yo build up personal website as a biginner</p>
-              <p><a class="btn btn-lg btn-outline-light" href="#">Know more about me</a></p>
+              <p>Try to build up a personal website as a biginner</p>
+              <p><a class="btn btn-lg btn-outline-light" href="/">Know more about me</a></p>
             </div>
           </div>
         </div>
@@ -231,7 +139,6 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container">
       <div class="row p-4 ">
-
         <div class="col-md-4 ">
           <div class="article" style="height: 400px;">
             <button class="btnnn" onclick="window.location.href='#'" type="button"
@@ -253,10 +160,134 @@
           </div>
         </div>
       </div>
-
-    </div>
     </div>
 
+    <div class="container">
+      <div class="pic px-4">
+        <img class="" src="/assets/img/beautiful3.jpg" width="100%">
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-md-7">
+          <h1 class="intro">
+            方德霖 Derek Fang
+          </h1>
+          <p class="px-4" style="text-align: right">Full-time Student ( Masters In Finance )</p>
+        </div>
+        <div class="col-md-4">
+          <img src="/assets/img/IMG_1355_2.jpg" height="200" width="200" data-holder-rendered="true"
+            class="rounded-circle">
+        </div>
+      </div>
+      <div class="row mx-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h4 style="font-weight: 800;text-decoration:underline;">
+            Intoduction
+          </h4>
+          <p style="font-weight: 700">
+            大家好，我叫方德霖，我是一個雖然非常懶惰，但是遇到有興趣的事情時會拼命去做的人。有的時候有點天馬行空，整天做著白日夢，也對周遭的很多事情不太關心。
+          </p>
+          <p style="font-weight: 700">
+            我平時的興趣是彈吉他，其實我小學的時候是學鋼琴的，但是在高中接觸到吉他之後就被我打入冷宮了，所以從高中開始就一直彈吉他到現在，雖然沒有很會彈，但是為我的生活帶來許多樂趣。
+          </p>
+          <p style="font-weight: 700">
+            除此之外我也很喜歡玩電腦，我大概從小學二年級就開始玩線上遊戲，還記得是某次去電影院看電影時，在外面投籃機的上面撿到一片遊戲光碟，從那時就開啟我玩電腦的不歸路。
+          </p>
+          <h4 class="pt-4" style="font-weight: 800;text-decoration:underline;">
+            Bio
+          </h4>
+          <div>
+            <span style="font-weight: 800;font-size:18px;">1999</span>
+            <span class="px-2" style="font-weight: 700">
+              出生於台北
+            </span>
+          </div>
+          <div>
+            <span style="font-weight: 800;font-size:18px;">2015</span>
+            <span class="px-2" style="font-weight: 700">
+              就讀於台北市立松山高級中學
+            </span>
+          </div>
+          <div>
+            <span style="font-weight: 800;font-size:18px;">2018</span>
+            <span class="px-2" style="font-weight: 700">
+              國立陽明交通大學 資訊管理與財務金融學系
+            </span>
+          </div>
+          <div>
+            <span style="font-weight: 800;font-size:18px;">2022</span>
+            <span class="px-2" style="font-weight: 700">
+              國立台灣大學 財務金融研究所
+            </span>
+          </div>
+
+          <h4 class="pt-4" style="font-weight: 800;text-decoration:underline;">
+            Interest
+          </h4>
+          <span style="font-weight: 700">
+            聽音樂, 彈吉他, 玩電腦, 籃球, 看韓劇
+          </span>
+
+          <h4 class="pt-4" style="font-weight: 800;text-decoration:underline;">
+            Works
+          </h4>
+          <span>
+            <div>
+              <span style="font-weight: 800;font-size:18px;">2022</span>
+              <span class="px-2" style="font-weight: 700">
+                KGI 凱基證券-風險管理部實習
+              </span>
+            </div>
+          </span>
+          <h4 class="pt-4" style="font-weight: 800;text-decoration:underline;">
+            On The Web
+          </h4>
+          <p class="pt-1"><a href="https://www.facebook.com/KereDs1213/"><img src="/assets/img/facebook.png" alt="f"
+                width="32" height="32"></a><span class="px-3" style="font-weight: 700">DerekFang</span></p>
+          <p><a href="https://www.instagram.com/fangderek/"><img src="/assets/img/instagram.png" alt="ig" width="32"
+                height="32"></a><span class="px-3" style="font-weight: 700">fangderek</span></p>
+          <p><a href="#"><img src="/assets/img/email.png" alt="ig" width="32" height="32"></a><span class="px-3"
+              style="font-weight: 700">6500dr@gmail.com</span></p>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <!-- <div class="navbar">
+      <div class="down">
+        <ul class="nav col-12 col-md-auto mb-0 justify-content-center mb-md-0">
+          <li class="nav-item ">
+            <a href="https://www.facebook.com/KereDs1213/"><img src="/assets/img/facebook.png" alt="f" width="32"
+                height="32"></a>
+          </li>
+          <li><a href="#" class="nav-link px-2 link-dark">Facebook</a></li>
+          <li class="nav-item ">
+            <a href="https://www.instagram.com/fangderek/"><img src="/assets/img/instagram.png" alt="ig" width="32"
+                height="32"></a>
+          </li>
+          <li><a href="#" class="nav-link px-2 link-dark">Instagram</a></li>
+          <li class="nav-item pl-2">
+            <a href="#"><img src="/assets/img/email.png" alt="ig" width="32" height="32"></a>
+          </li>
+          <li><a href="#" class="nav-link px-2 link-dark">Email</a></li>
+        </ul>
+
+      </div>
+
+    </div> -->
+    <footer class="p-3 mt-4 text-muted border-top" style="text-align:center;">
+      © 2022 KereDs
+    </footer>
     <!-- <div class="container">
       <div class="row p-4">
 
@@ -357,14 +388,12 @@
       <p class="float-end"><a href="#">Back to top</a></p>
       <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer> -->
-    <footer class="p-3 mt-4 text-muted border-top">
-      © 2022 KereDs
-    </footer>
+
   </main>
 
 
   <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="js/jquery.min.js"></script>
 
 </body>
 

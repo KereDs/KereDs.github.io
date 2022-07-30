@@ -1,0 +1,85 @@
+<html>
+<head>
+ 
+    <!--go to top的箭頭icon -->
+    <link href="css/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet" />
+    <!--go to top 點擊效果-->
+    <link href="css/Waves-0.7.6/dist/waves.min.css" rel="stylesheet" />
+    
+    <style type="text/css">
+          html {
+            scroll-behavior: smooth;/*點擊錨點用*/
+        }
+
+        /*Go to top回頂端 button*/ 
+        a.my-btn-goTop {
+            position: fixed;
+            /*bottom: 25px;*//*箭頭顯示時的定義*/
+            bottom: -50px;/*靠下，預設在畫面外，填入height的負數*/
+            right: 25px;/*靠右*/
+            z-index: 999999999;
+            /*絕對定位排版↑*/
+            display: inline-block;
+            width: 50px;
+            height: 50px;/*區域寬高*/
+            line-height: 50px; /*內文垂直置中*/
+            /*內文水平置中*/
+            text-align: center;
+            background-color: #197C9D; /*區域顏色，深藍主色*/
+            font-size: 1.6rem; /*箭頭大小，單位rem才能通過無障礙*/
+            color: rgb(117, 3, 3);
+            border-radius: 50%;
+            transition: 0.3s;
+            opacity: 0; /*預設透明*/
+        }
+            
+            /*箭頭顯示時要做的事*/
+            a.my-btn-goTop.show {
+                opacity: 1; /*淡入顯示*/
+                bottom: 25px/*移到畫面裡*/
+            }
+
+
+    </style>
+   
+ 
+
+</head>
+ <body>
+ 
+
+ 
+    <!--Go to Top button-->
+    <a href="#" class="my-btn-goTop"><i class="zmdi zmdi-long-arrow-up"></i></a>
+ 
+
+
+    <!--引用jQuery-->
+    <script src="js/jQuery.js" ></script>
+    <!--點擊效果-->
+    <script src="Waves-0.7.6/dist/waves.min.js"></script>
+
+    <!--go to top script-->
+    <script type="text/javascript">
+        $(function () {
+           window.onscroll = function () {
+
+                /*當瀏覽器捲軸往下捲100px*/
+                const px = 100;
+                if (document.body.scrollTop > px || document.documentElement.scrollTop > px) {
+                    $("a.my-btn-goTop").addClass("show");/*顯示*/
+
+                } else {
+                    $("a.my-btn-goTop").removeClass("show");/*隱藏*/
+                }
+            }; 
+        });
+    </script>
+    <!--初始化並執行 Ripple 效果(使用者點擊的回饋效果)-->
+    <script type="text/javascript">
+        Waves.attach('.my-btn-goTop', []);//go to top 超連結 
+        Waves.init();
+    </script>
+ 
+</body>
+</html>

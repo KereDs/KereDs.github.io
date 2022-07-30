@@ -18,6 +18,10 @@
     <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        .body {
+            font-family: "微軟正黑體", sans-serif;
+        }
+
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -72,6 +76,19 @@
         .text-h-center {
             text-align: center;
         }
+
+        .selfshort {
+            font-size: 20px;
+        }
+
+        .big {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .cont{
+            font-size: 25px;
+        }
     </style>
 
 
@@ -84,7 +101,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand text-black px-5" href="caro.html" style="font-weight: bold;">Derek Fang</a>
+                <a class="navbar-brand text-black px-5" href="index.html" style="font-weight: bold;">Derek Fang</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -92,14 +109,14 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-black " aria-current="page" href="#"
+                            <a class="nav-link active text-black " aria-current="page" href="aboutme.html"
                                 style="font-weight: bold;"><span>About me</span></a>
                         </li>
                         <li class="nav-item">
                             <p class="pt-2">|</p>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black px-3" href="#" style="font-weight: bold;">Resume</a>
+                            <a class="nav-link text-black px-3" href="resume.html" style="font-weight: bold;">Resume</a>
                         </li>
                         <li class="nav-item">
                             <p class="pt-2">|</p>
@@ -127,13 +144,37 @@
     </header>
 
     <main>
+        <div class="container mt-5">
+            <div class="row p-5 ">
+                <!-- <h1 style="font-weight:bold;text-align:center">Self Introduction</h1>
+                <hr> -->
+                <img src="/assets/img/IMG_1355.jpg" width="90">
+                <!-- <div class="selfshort">
+                    <p class="mt-3" style="text-align:center">我叫方德霖，英文名字是Derek，今年剛從國立陽明交通大學畢業，將於9月份到國立台灣大學就讀研究所</p>
+                </div> -->
+                <div class="mt-5">
+                    <h2 class="big">學歷</h2>
+                    <li class="cont px-5 py-3">國立台灣大學 財務金融研究所 </li>
+                    <li class="cont px-5 py-3">國立陽明交通大學 資訊管理與財務金融學系 財務金融組</li>
+                    <li class="cont px-5 py-3">台北市立松山高級中學</li>
+                </div>
+                <div class="pt-5">
+                    <h2 class="big">工作經驗</h2>
+                    <li class="cont px-5 py-3">凱基 KGI 風險管理部實習生</li>
+                </div>
+                <div class="pt-5">
+                    <h2 class="big">技能</h2>
+                    <li class="cont px-5 py-3">Python、|C++、Java、Matlab</li>
+                    <li class="cont px-5 py-3">財務管理、投資學、數理統計、期貨與選擇權</li>
+                </div>
+            </div>
+        </div>
 
-        
 
-        <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <footer class="p-3 mt-4 text-muted border-top">
+            © 2022 KereDs
         </footer>
+        <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
     </main>
 
     <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
