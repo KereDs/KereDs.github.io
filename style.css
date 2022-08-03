@@ -110,17 +110,50 @@
   display: inline-block;
 }
 
-#scrolltotop{
-    position:fixed ;
-    right: 15px;
-    bottom: 15px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background: white;
-    box-shadow: 0 0 10px black;
-    color: gray;
-    border: none;
-    outline: none;
-    cursor: pointer;
+#scrolltotop {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px black;
+  color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.articleh {
+  background-image: url("/assets/img/articlepost.jpg");
+  background-size: 430px;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  background-image: url("/assets/img/all2.jpg");
+  background-size: 100%;
+  height: 940px;
+  text-align: center;
+}
+
+.welcome{
+  position: relative;
+  top: 255px;
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.musich{
+  background-image: url("/assets/img/nomusic.jpg");
+  background-size: 470px;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
