@@ -54,15 +54,9 @@
               <p class="pt-2">|</p>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black px-3" href="projecthome.html" style="font-weight: bold;">Project</a>
-            </li>
-            <li class="nav-item">
-              <p class="pt-2">|</p>
-            </li>
-            <li class="nav-item">
               <a class="nav-link text-black px-3" href="musichome.html" style="font-weight: bold;">Music</a>
             </li>
-            <img src="/assets/img/d.png" alt="d" width="32" height="32">
+            <img class="d" src="/assets/img/d.png" alt="d" width="32" height="32">
           </ul>
         </div>
       </div>
@@ -70,46 +64,48 @@
   </header>
   <main>
     <div class="container">
-        <div class="row p-5 mt-4">
-          <h1 style="text-align:center">Music</h1>
-          <hr>
-          <div class="col-md-4 mt-4">
-            <div class="musich" style="height: 350px;">
-              <button class="btnnn" onclick="window.location.href='music2.html'" type="button" style="font-weight: bold; font-size: large;">August 6, 2022</button>
-            </div>
-          </div> 
-          <div class="col-md-4 mt-4">
-            <div class="musich" style="height: 350px;">
-              <button class="btnnn" onclick="window.location.href='music1.html'" type="button" style="font-weight: bold; font-size: large;">August 3, 2022</button>
-            </div>
-          </div> 
+      <div class="row p-5 mt-4">
+        <h1 style="text-align:center">Music</h1>
+        <hr>
+        <div class="col-md-4 mt-4">
+          <div class="musich" style="height: 350px;">
+            <button class="btnnn" onclick="window.location.href='music2.html'" type="button"
+              style="font-weight: bold; font-size: large;">August 6, 2022</button>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="musich" style="height: 350px;">
+            <button class="btnnn" onclick="window.location.href='music1.html'" type="button"
+              style="font-weight: bold; font-size: large;">August 3, 2022</button>
+          </div>
         </div>
       </div>
+    </div>
   </main>
   <div class="col-md-3">
     <button id="scrolltotop">
-          <i class="material-icons">arrow_upward</i>
+      <i class="material-icons">arrow_upward</i>
     </button>
-</div>
+  </div>
 
-<footer class="p-3 mt-4 text-muted border-top" style="text-align:center;">
+  <footer class="p-3 mt-4 text-muted border-top" style="text-align:center;">
     © 2022 KereDs
-</footer>
-<script>
+  </footer>
+  <script>
     const scrolltotop = document.querySelector("#scrolltotop");
-    scrolltotop.addEventListener("click", function() {
+    scrolltotop.addEventListener("click", function () {
 
-          // $("html,").animate({scrollTop:0},"slow");
+      // $("html,").animate({scrollTop:0},"slow");
 
-          window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: "smooth"
-          });
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      });
     });
-</script>
+  </script>
 
-<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>
