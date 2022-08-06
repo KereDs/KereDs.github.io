@@ -1,0 +1,139 @@
+!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="KereDs的個人網站">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>KereDs的個人網站</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link rel="icon" href="/assets/img/letter-d.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+
+
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+            <div class="container-fluid">
+
+                <a class="navbar-brand text-black px-3" href="index.html" style="font-weight:bold;">Derek Fang</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <!-- <li class="nav-item">
+              <a class="nav-link active text-black " aria-current="page" href="aboutme.html"
+                style="font-weight: bold;"><span>About me</span></a>
+            </li>
+            <li class="nav-item">
+              <p class="pt-2">|</p>
+            </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-black px-3" href="resume.html" style="font-weight: bold;">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="pt-2">|</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black px-3" href="articlehome.html"
+                                style="font-weight: bold;">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="pt-2">|</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black px-3" href="projecthome.html"
+                                style="font-weight: bold;">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="pt-2">|</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black px-3" href="musichome.html"
+                                style="font-weight: bold;">Music</a>
+                        </li>
+                        <img src="/assets/img/d.png" alt="d" width="32" height="32">
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row p-5 mt-5">
+                <h2 style="font-weight:bold;text-align:center ">第三篇Blog</h2>
+                <p class="pb-4" style="font-weight:bold;text-align:center">August 6, 2022</p>
+                <div class="blog">
+                    <p>結果到現在還是沒有解決問題，training和validation的時候結果看起來都很正常</p>
+                    <p>以loss來看也沒有overfitting的問題，但testing的時候就會變得跟大便一樣</p>
+                    <p>在stack overflow有看到一些人也有相同的問題，原因不乏是testing data的分布和其他資料不一樣</p>
+                    <p>又或著是在預測的時候有些資料處理沒做對</p>
+                    <p>不過我有試著用結果正常的training data來切測試組</p>
+                    <p>還是做出了一坨大便</p>
+                    <p>所以可能是預測的時候應該要做甚麼我沒做，或著是我多做了嗎</p>
+                    <p>不知道</p>
+                    <p>我只知道我這假日又要繼續努力寫程式了</p>
+                    <p>希望能趕快找到原因，就算是失敗的原因也可以</p>
+                    <p>畢竟如果真的那麼好做，那其他人早就去做了，輪不到我這個菜雞</p>
+                    <p>所以如果能找出是因為台股的pattern無法預測，又或著是資料不夠consistent之類的</p>
+                    <p>那應該也算不錯的結果</p>
+
+                    <img src="/assets/postimg/fuck.png" alt="">
+                    <p style="font-weight: bold;">讓我心灰意冷的結果</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="col-md-3">
+        <button id="scrolltotop">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+    </div>
+
+    <footer class="p-3 mt-4 text-muted border-top" style="text-align:center;">
+        © 2022 KereDs
+    </footer>
+    <script>
+        const scrolltotop = document.querySelector("#scrolltotop");
+        scrolltotop.addEventListener("click", function () {
+
+            // $("html,").animate({scrollTop:0},"slow");
+
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
