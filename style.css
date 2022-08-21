@@ -239,15 +239,17 @@
 .head {
 
   background-image: url("/assets/img/aus2.jpg");
-  background-size: 555555px;
+
+  height: 940px;
+  width: 100%;
   background-size: cover;
-  text-align: center;
+
 }
 
 .welcome {
   position: relative;
   top: 255px;
-  left: 430px;
+  margin-left: 1000px;
   color: white;
   font-size: 90px;
 }
@@ -320,6 +322,7 @@
   border-color: rgb(226, 220, 220);
   width: 95%;
   height: 350px;
+
 }
 
 .wrapping:hover {
