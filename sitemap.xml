@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>KereDs.github.io/categories/</loc>
+    <loc>http://kereds.nycu.me/categories/</loc>
     <lastmod>2022-08-25T09:13:58+08:00</lastmod>
   </url><url>
-    <loc>KereDs.github.io/</loc>
+    <loc>http://kereds.nycu.me/</loc>
     <lastmod>2022-08-25T09:13:58+08:00</lastmod>
   </url><url>
-    <loc>KereDs.github.io/posts/</loc>
+    <loc>http://kereds.nycu.me/posts/</loc>
     <lastmod>2022-08-25T09:13:58+08:00</lastmod>
   </url><url>
-    <loc>KereDs.github.io/categories/test/</loc>
+    <loc>http://kereds.nycu.me/categories/test/</loc>
     <lastmod>2022-08-25T09:13:58+08:00</lastmod>
   </url><url>
-    <loc>KereDs.github.io/posts/test/test1/</loc>
+    <loc>http://kereds.nycu.me/posts/test/test1/</loc>
     <lastmod>2022-08-25T09:13:58+08:00</lastmod>
   </url><url>
-    <loc>KereDs.github.io/about/</loc>
+    <loc>http://kereds.nycu.me/about/</loc>
   </url><url>
-    <loc>KereDs.github.io/archives.fr/</loc>
+    <loc>http://kereds.nycu.me/archives.fr/</loc>
   </url><url>
-    <loc>KereDs.github.io/archives/</loc>
+    <loc>http://kereds.nycu.me/archives/</loc>
   </url><url>
-    <loc>KereDs.github.io/search/</loc>
+    <loc>http://kereds.nycu.me/search/</loc>
   </url><url>
-    <loc>KereDs.github.io/search.fr/</loc>
+    <loc>http://kereds.nycu.me/search.fr/</loc>
   </url><url>
-    <loc>KereDs.github.io/series/</loc>
+    <loc>http://kereds.nycu.me/series/</loc>
   </url><url>
-    <loc>KereDs.github.io/tags/</loc>
+    <loc>http://kereds.nycu.me/tags/</loc>
   </url>
 </urlset>
