@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Life on KereDs的個人網站</title>
+    <link>https://kereds.github.io/categories/life/</link>
+    <description>Recent content in Life on KereDs的個人網站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 26 Aug 2022 20:51:16 +0800</lastBuildDate><atom:link href="https://kereds.github.io/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>趕趕趕</title>
+      <link>https://kereds.github.io/posts/life/hurry-up/</link>
+      <pubDate>Fri, 26 Aug 2022 20:51:16 +0800</pubDate>
+      
+      <guid>https://kereds.github.io/posts/life/hurry-up/</guid>
+      <description>最近幾天真的滿累的，本來想說實習才過了一半，應該還有時間可以慢慢處理我的data和train model，結果因為離開前所有實習生都要做一個報</description>
+    </item>
+    
+    <item>
+      <title>第一篇Blog</title>
+      <link>https://kereds.github.io/posts/life/first-article/</link>
+      <pubDate>Fri, 26 Aug 2022 20:41:52 +0800</pubDate>
+      
+      <guid>https://kereds.github.io/posts/life/first-article/</guid>
+      <description>大家好，這是我的第一篇文章，最近其實算是水深火熱，接了補習班的助教再加上暑期實習，連假日的時間都要拿來做正事，雖然累但也算滿充實的吧。 本來以</description>
+    </item>
+    
+  </channel>
+</rss>
