@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kereds.github.io/categories/</loc>
-    <lastmod>2022-08-27T13:06:39+08:00</lastmod>
+    <lastmod>2022-08-27T13:19:00+08:00</lastmod>
   </url><url>
     <loc>https://kereds.github.io/</loc>
-    <lastmod>2022-08-27T13:06:39+08:00</lastmod>
+    <lastmod>2022-08-27T13:19:00+08:00</lastmod>
   </url><url>
-    <loc>https://kereds.github.io/categories/music/</loc>
-    <lastmod>2022-08-27T13:06:39+08:00</lastmod>
+    <loc>https://kereds.github.io/categories/life/</loc>
+    <lastmod>2022-08-27T13:19:00+08:00</lastmod>
   </url><url>
     <loc>https://kereds.github.io/posts/</loc>
+    <lastmod>2022-08-27T13:19:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kereds.github.io/posts/life/release/</loc>
+    <lastmod>2022-08-27T13:19:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kereds.github.io/categories/music/</loc>
     <lastmod>2022-08-27T13:06:39+08:00</lastmod>
   </url><url>
     <loc>https://kereds.github.io/posts/music/remember-you/</loc>
@@ -22,9 +28,6 @@
   </url><url>
     <loc>https://kereds.github.io/posts/music/iron/</loc>
     <lastmod>2022-08-26T22:06:00+08:00</lastmod>
-  </url><url>
-    <loc>https://kereds.github.io/categories/life/</loc>
-    <lastmod>2022-08-26T21:03:58+08:00</lastmod>
   </url><url>
     <loc>https://kereds.github.io/posts/life/long-time/</loc>
     <lastmod>2022-08-26T21:03:58+08:00</lastmod>
@@ -50,8 +53,6 @@
     <loc>https://kereds.github.io/search/</loc>
   </url><url>
     <loc>https://kereds.github.io/search.fr/</loc>
-  </url><url>
-    <loc>https://kereds.github.io/series/</loc>
   </url><url>
     <loc>https://kereds.github.io/tags/</loc>
   </url>
